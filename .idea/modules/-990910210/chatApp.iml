@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="chatApp" external.linked.project.path="$MODULE_DIR$/../../../../../../멋쟁이사자/실습/chat-app/chat-app-mession-main" external.root.project.path="$MODULE_DIR$/../../../chat-app-mession-main" external.system.id="GRADLE" external.system.module.group="com.ll" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../../멋쟁이사자/실습/chat-app/chat-app-mession-main">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../멋쟁이사자/실습/chat-app/chat-app-mession-main/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../멋쟁이사자/실습/chat-app/chat-app-mession-main/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../멋쟁이사자/실습/chat-app/chat-app-mession-main/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

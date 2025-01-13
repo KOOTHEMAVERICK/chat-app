@@ -6,29 +6,27 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
 public class ChatRoomService {
-
     private final ChatRoomRepository chatRoomRepository;
 
     public ChatRoom create(String name) {
         ChatRoom chatRoom = ChatRoom.builder()
-                .name(name)
-                .build();
+                                .name(name)
+                                .build();
 
         chatRoomRepository.save(chatRoom);
 
         return chatRoom;
     }
 
-    public List<ChatRoom> getAll() {
-        return chatRoomRepository.findAll();
+    public  List<ChatRoom>  getAll() {
+       return chatRoomRepository.findAll();
     }
 
-    public Optional<ChatRoom> getById(Long id) {
-        return chatRoomRepository.findById(id);
+    public ChatRoom getChatRoom(Long roomId) {
+        return chatRoomRepository.findById(roomId).get();
     }
 }
